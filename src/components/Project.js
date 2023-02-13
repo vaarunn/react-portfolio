@@ -59,7 +59,10 @@ function Projects() {
           {projects.map((item) => {
             const { id, name, img, githubLink, demoLink } = item;
             return (
-              <div className='bg-[#273f6a]/0.7  shadow-xl shadow-blue-500 rounded-xl p-4 border-2 border-indigo-400 '>
+              <div
+                key={id}
+                className='bg-[#273f6a]/0.7  shadow-xl shadow-blue-500 rounded-xl p-4 border-2 border-indigo-400 '
+              >
                 <img src={img} alt={name} />
                 <div>
                   <h1 className='text-center mt-2 font-bold'>{name}</h1>

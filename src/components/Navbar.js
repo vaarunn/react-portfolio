@@ -101,7 +101,7 @@ const Navbar = () => {
                 {links.map((link) => {
                   const { id, title, url } = link;
                   return (
-                    <Link to={url} onClick={toogleSidebar}>
+                    <Link key={id} to={url} onClick={toogleSidebar}>
                       <li className=' py-4 border-b text-white border-gray-300  hover:text-[#0ea5e9]'>
                         {title}
                       </li>

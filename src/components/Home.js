@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { socialIcons } from './data';
 import Typewriter from 'typewriter-effect';
 import Particle from './Particles';
@@ -24,7 +24,7 @@ const Home = () => {
                     <Typewriter
                       options={{
                         strings: [
-                          `Let's Build Something Together`,
+                          `Let's Build Something Amazing Together...`,
                           `Let's Get Started!`,
                         ],
                         autoStart: true,

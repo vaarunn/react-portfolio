@@ -14,9 +14,7 @@ import react from '../assets/skills/react.png';
 import cpp from '../assets/skills/CPP.png';
 import tailwind from '../assets/skills/tailwind.png';
 import github from '../assets/skills/github.png';
-import node from '../assets/skills/node.png';
 import firebase from '../assets/skills/firebase.png';
-import mongodb from '../assets/skills/mongo.png';
 const links = [
   {
     id: '1',
